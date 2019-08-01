@@ -2,14 +2,14 @@ version: 2
 jobs:
   unit_test:
     docker:
-      - image: busybox:latest
+      - image: circleci/node:12.3.1
     steps:
       - run:
           name: Unit Test
           command: npm test
   linting:
     docker:
-      - image: busybox:latest
+      - image: circleci/node:12.3.1
     steps:
       - run:
           name: Lint Test
