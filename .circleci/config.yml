@@ -1,12 +1,5 @@
 version: 2
 jobs:
-  build:
-    docker:
-      - image: circleci/node:12.3.1
-
-    working_directory: ~/repo
-
-
   unit_test:
     docker:
       - image: busybox:latest
