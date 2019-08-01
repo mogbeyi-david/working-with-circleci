@@ -1,6 +1,4 @@
-const add = (firstNumber, secondNumber) => {
-    return firstNumber + secondNumber;
-};
+const add = (firstNumber, secondNumber) => firstNumber + secondNumber;
 
 
 module.exports = add;
